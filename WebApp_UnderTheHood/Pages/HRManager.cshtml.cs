@@ -31,9 +31,13 @@ namespace WebApp_UnderTheHood.Pages
 
         public async Task OnGetAsync()
 
+        {            
+            weatherForecastItems = await InvokeEndPoint<List<WeatherForecastDto>>("OurWebAPI", "WeatherForecast");
 
+        }
+
+        private async Task<T>InvokeEndPoint<T>(string clientName, string url)
         {
-             
             //get token from session
 
             JwtToken token = null;
@@ -44,9 +48,7 @@ namespace WebApp_UnderTheHood.Pages
             if (string.IsNullOrWhiteSpace(strTokenObj))             // if token is null call webAPI end point
 
             {
-
-
-                token =await  Authenticate(); // 
+                token = await Authenticate(); // 
             }
             else
             {
@@ -54,26 +56,24 @@ namespace WebApp_UnderTheHood.Pages
                 token = JsonConvert.DeserializeObject<Authorization.JwtToken>(strTokenObj);
             }
 
-            if (token ==  null || string.IsNullOrWhiteSpace(token.AccessToken) || token.ExpireAt < DateTime.UtcNow )
+            if (token == null || string.IsNullOrWhiteSpace(token.AccessToken) || token.ExpireAt < DateTime.UtcNow)
             {
                 token = await Authenticate();
 
             }
-
-
-            var httpClient = httpClientFactory.CreateClient("OurWebApi");
+            var httpClient = httpClientFactory.CreateClient(clientName);
             //Adding token to headers of httpclient GET call
-
 
             httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.
                 AuthenticationHeaderValue("Bearer", token.AccessToken);
             // calling webapi from application
-            weatherForecastItems = await httpClient.GetFromJsonAsync<List<WeatherForecastDto>>("/WeatherForecast");
 
+            return await httpClient.GetFromJsonAsync<T>(url);
         }
 
         private async Task<JwtToken> Authenticate()
         {
+            // create httpclient object to make call 
             var httpClient = httpClientFactory.CreateClient("OurWebApi");
 
             //post to end point with credential to authenticate and create token and storing response in res variable

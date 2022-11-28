@@ -60,8 +60,10 @@ namespace Web_API.Controllers
 
         private string CreateToken(IEnumerable<Claim> claims, DateTime expiresAt) 
         {
-
+            //byte array for secret key
             var secretKey = Encoding.ASCII.GetBytes(Conf.GetValue<string>("Secretkey"));
+           
+            // creating token
             var jwt = new JwtSecurityToken(
 
                 claims: claims,
