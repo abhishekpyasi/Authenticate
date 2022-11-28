@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\abhis\\Downloads\\1.13+WebApp_Security-Session\\WebApp_Security\\WebApp_UnderTheHood\\WebApp_UnderTheHood.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\abhis\\Downloads\\1.13+WebApp_Security-Session\\WebApp_Security\\WebApp_UnderTheHood\\WebApp_UnderTheHood.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abhis\\Downloads\\1.13+WebApp_Security-Session\\WebApp_Security\\WebApp_UnderTheHood\\WebApp_UnderTheHood.csproj",
+        "projectName": "WebApp_UnderTheHood",
+        "projectPath": "C:\\Users\\abhis\\Downloads\\1.13+WebApp_Security-Session\\WebApp_Security\\WebApp_UnderTheHood\\WebApp_UnderTheHood.csproj",
+        "packagesPath": "C:\\Users\\abhis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abhis\\Downloads\\1.13+WebApp_Security-Session\\WebApp_Security\\WebApp_UnderTheHood\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abhis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Extensions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\appsettings.json
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Web API.exe
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Web API.deps.json
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Web API.runtimeconfig.json
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Web API.runtimeconfig.dev.json
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Web API.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\ref\Web API.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Web API.pdb
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.csproj.AssemblyReference.cache
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.AssemblyInfoInputs.cache
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.AssemblyInfo.cs
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.csproj.CoreCompileInputs.cache
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\staticwebassets\Web API.StaticWebAssets.Manifest.cache
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\staticwebassets\Web API.StaticWebAssets.xml
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\scopedcss\bundle\Web API.styles.css
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.RazorTargetAssemblyInfo.cache
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.csproj.CopyComplete
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\ref\Web API.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.pdb
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\obj\Debug\net5.0\Web API.genruntimeconfig.cache
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\abhis\Downloads\1.13+WebApp_Security-Session\WebApp_Security\Web API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
