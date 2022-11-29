@@ -32,13 +32,13 @@ namespace WebApp_UnderTheHood.Pages
         public async Task OnGetAsync()
 
         {            
-            weatherForecastItems = await InvokeEndPoint<List<WeatherForecastDto>>("OurWebAPI", "WeatherForecast");
+            weatherForecastItems = await InvokeEndPoint<List<WeatherForecastDto>>("OurWebApi", "WeatherForecast");
 
         }
 
         private async Task<T>InvokeEndPoint<T>(string clientName, string url)
         {
-            //get token from session
+            //get token from session cookie
 
             JwtToken token = null;
 

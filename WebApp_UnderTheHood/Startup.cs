@@ -64,10 +64,10 @@ namespace WebApp_UnderTheHood
             services.AddSingleton<IAuthorizationHandler, HRmanagerProbationRequirementHandler>();
 
             services.AddRazorPages();
-            services.AddHttpClient("OurWebApi", client =>
+            services.AddHttpClient("OurWebApi", options =>
             {
 
-                client.BaseAddress = new Uri("https://localhost:44348");
+                options.BaseAddress = new Uri("https://localhost:44348");
             });
             
         }
