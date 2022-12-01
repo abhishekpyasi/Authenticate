@@ -11,6 +11,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using WebApp.Data;
+using WebApp.Services;
+using WebApp.Settings;
 
 namespace WebApp
 {
@@ -35,6 +37,14 @@ namespace WebApp
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
+            //adding option pattern to provide smtpsetting value 
+
+            services.Configure<SMTPSettings>(Configuration.GetSection("SMTP"));
+
+            //add email service to dependency injection platform
+
+            services.AddSingleton<IEmailService, EmailService>();
+
             // addingidentity to application and telling identity which database to use 
             services.AddIdentity<IdentityUser, IdentityRole>(options =>
 
@@ -47,13 +57,16 @@ namespace WebApp
                 options.Lockout.MaxFailedAccessAttempts = 5;
 
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(15);
+                options.SignIn.RequireConfirmedEmail = true;
 
 
-            }).AddEntityFrameworkStores<ApplicationDbContext>();
+
+            }).AddEntityFrameworkStores<ApplicationDbContext>()
+               .AddDefaultTokenProviders();
 
             services.ConfigureApplicationCookie(options =>
 
-            { options.LoginPath = "Account/Login";
+            { options.LoginPath = "/Account/Login";
 
             options.AccessDeniedPath = "/Account/AccessDenied";
             }
